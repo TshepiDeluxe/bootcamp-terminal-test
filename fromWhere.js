@@ -1,4 +1,4 @@
-module.export = function fromWhere(regNo) { 
+module.exports = function fromWhere(regNo) { 
     switch(regNo){ 
       case 'CY':
         return 'Bellville';

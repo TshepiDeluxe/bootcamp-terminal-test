@@ -1,4 +1,4 @@
-module.export = function totalPhoneBill(action){
+module.exports = function totalPhoneBill(action){
 var actionList = action.split(',')
 const callFee = 2.75;
 const smsFee = 0.65

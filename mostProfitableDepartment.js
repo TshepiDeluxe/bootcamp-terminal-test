@@ -1,4 +1,4 @@
-module.export = function mostProfitableDepartment(salesData){ 
+module.exports = function mostProfitableDepartment(salesData){ 
     const salesMap = {};
     for(let i = 0; i < salesData.length; i++){ 
       const currentdepartmentData = salesData[i];

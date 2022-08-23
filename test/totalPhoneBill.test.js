@@ -1,4 +1,4 @@
-var totalPhoneBille = require('../totalPhoneBill');
+var totalPhoneBill = require('../totalPhoneBill');
 const assert = require('assert'); 
 describe('totalPhoneBill function', function(){
     it ('should return R7.45', function(){

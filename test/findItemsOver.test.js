@@ -1,4 +1,4 @@
-var findItemOver20 = require('../findItemsOver');
+var findItemsOver = require('../findItemsOver');
 const assert = require('assert')
 var itemList = [
     {name : 'apples', qty : 10},

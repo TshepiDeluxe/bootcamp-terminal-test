@@ -1,3 +1,3 @@
-module.export = function yearsAgo(year){
+module.exports = function yearsAgo(year){
 return new Date().getFullYear() - year;
 }

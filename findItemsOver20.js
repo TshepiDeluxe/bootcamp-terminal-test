@@ -1,4 +1,4 @@
-module.export = function findItemsOver20(list){ 
+module.exports = function findItemsOver20(list){ 
     var itemOver20List = [];
     for (let i = 0; i < list.length; i++){ 
       var itemList = list[i];

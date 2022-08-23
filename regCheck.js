@@ -1,3 +1,3 @@
-module.export = function regCheck(regNo,indicator) { 
+module.exports = function regCheck(regNo,indicator) { 
     return regNo.endsWith(indicator);
   }

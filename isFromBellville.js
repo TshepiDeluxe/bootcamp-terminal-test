@@ -1,4 +1,4 @@
-module.export = function isFromBellville(regNo) {
+module.exports = function isFromBellville(regNo) {
     if(regNo.startsWith('CY')) { 
     return true;} else {
     return false}

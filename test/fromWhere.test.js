@@ -5,6 +5,6 @@ describe ('fromWhere function', function(){
         assert.equal(fromWhere('CY'), 'Bellville');
     })
     it ('it should return Paarl', function(){
-        assert.equal(fromWhere('CJ'), 'Bellville');
+        assert.equal(fromWhere('CJ'), 'Paarl');
     })
 })
